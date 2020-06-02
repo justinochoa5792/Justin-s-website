@@ -6,7 +6,6 @@ import {
   MDBView,
   MDBContainer,
 } from "mdbreact";
-import {Link} from 'react-router-dom'
 
 
 class Home extends Component {
@@ -53,8 +52,6 @@ class Home extends Component {
             </MDBCarouselInner>
           </MDBCarousel>
         </MDBContainer>
-        <Link to='about'>About</Link>
-        <Link to='project'>Project</Link>
       </div>
     );
   }

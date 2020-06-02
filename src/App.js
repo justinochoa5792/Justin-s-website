@@ -6,11 +6,15 @@ import 'mdbreact/dist/css/mdb.css';
 import About from './components/About'
 import Project from './components/Project'
 import Home from './components/Home'
+import {NavLink} from 'react-router-dom'
 
 class App extends Component {
   render() {
     return (
       <div>
+     <NavLink to= '/'> Home  |</NavLink>
+     <NavLink to='/about'> About  |</NavLink>
+     <NavLink to ='/project'> Project  |</NavLink>
         <Switch>
         <Route exact path="/" render={(props) => <Home {...props}/>} />
           <Route exact path="/about" render={(props) => <About {...props}/>} />
