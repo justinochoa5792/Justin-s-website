@@ -26,7 +26,7 @@ class Home extends Component {
                 <MDBView>
                   <img
                     className="d-block w-100"
-                    src="../images/Screen Shot 2020-06-01 at 7.08.29 PM.png"
+                    src="../images/Screen Shot 2020-06-04 at 7.25.51 PM.png"
                     alt="First slide"
                   />
                 </MDBView>
