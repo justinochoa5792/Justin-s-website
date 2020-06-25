@@ -1,24 +1,26 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
-import '@fortawesome/fontawesome-free/css/all.min.css'; 
-import 'bootstrap-css-only/css/bootstrap.min.css'; 
-import 'mdbreact/dist/css/mdb.css';
-import About from './components/About'
-import Project from './components/Project'
-import Home from './components/Home'
-import {NavLink} from 'react-router-dom'
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap-css-only/css/bootstrap.min.css";
+import "mdbreact/dist/css/mdb.css";
+import About from "./components/About";
+import Project from "./components/Project";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 
 class App extends Component {
   render() {
     return (
       <div>
-     <NavLink to= '/'> Home  |</NavLink>
-     <NavLink to='/about'> About  |</NavLink>
-     <NavLink to ='/project'> Projects  |</NavLink>
+        <Navbar />
         <Switch>
-        <Route exact path="/" render={(props) => <Home {...props}/>} />
-          <Route exact path="/about" render={(props) => <About {...props}/>} />
-          <Route exact path="/project" render={(props) => <Project {...props} />} />
+          <Route exact path="/" render={(props) => <Home {...props} />} />
+          <Route exact path="/about" render={(props) => <About {...props} />} />
+          <Route
+            exact
+            path="/project"
+            render={(props) => <Project {...props} />}
+          />
         </Switch>
       </div>
     );

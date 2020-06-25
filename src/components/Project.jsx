@@ -13,7 +13,6 @@ class Project extends Component {
     return (
       <div style={{ textAlign: "center" }}>
         <h2>Projects</h2>
-
         <MDBCol>
           <MDBCard style={{ width: "22rem" }}>
             <MDBCardImage
@@ -21,9 +20,15 @@ class Project extends Component {
               src="../images/Screen Shot 2020-06-01 at 7.08.29 PM.png"
               waves
             />
-            <MDBCardBody>
-              <MDBCardTitle>Project 1</MDBCardTitle>
-              <MDBCardText>
+            <MDBCardBody style={{ backgroundColor: "#204051" }}>
+              <MDBCardTitle
+                style={{ backgroundColor: "#204051", color: "white" }}
+              >
+                Project 1
+              </MDBCardTitle>
+              <MDBCardText
+                style={{ backgroundColor: "#204051", color: "white" }}
+              >
                 My Take on the classic arcade game Space Invaders <br />
                 <a
                   rel="noopener"
@@ -33,7 +38,6 @@ class Project extends Component {
                 </a>
               </MDBCardText>
             </MDBCardBody>
-            <MDBCardBody></MDBCardBody>
           </MDBCard>
         </MDBCol>
         <MDBCol>
@@ -43,16 +47,19 @@ class Project extends Component {
               src="../images/Screen Shot 2020-06-01 at 7.09.40 PM.png"
               waves
             />
-            <MDBCardBody>
-              <MDBCardTitle>Project 2</MDBCardTitle>
-              <MDBCardText>
+            <MDBCardBody style={{ backgroundColor: "#204051", color: "white" }}>
+              <MDBCardTitle style={{ backgroundColor: "#204051" }}>
+                Project 2
+              </MDBCardTitle>
+              <MDBCardText
+                style={{ backgroundColor: "#204051", color: "white" }}
+              >
                 Lifestyle app that provides various workouts and recipes <br />
                 <a rel="noopener" href="https://ironworkout.netlify.app/">
                   Go to App
                 </a>
               </MDBCardText>
             </MDBCardBody>
-            <MDBCardBody></MDBCardBody>
           </MDBCard>
         </MDBCol>
         <MDBCol>
@@ -62,9 +69,15 @@ class Project extends Component {
               src="../images/Screen Shot 2020-06-01 at 7.10.33 PM.png"
               waves
             />
-            <MDBCardBody>
-              <MDBCardTitle>Project 3</MDBCardTitle>
-              <MDBCardText>
+            <MDBCardBody style={{ backgroundColor: "#204051" }}>
+              <MDBCardTitle
+                style={{ backgroundColor: "#204051", color: "white" }}
+              >
+                Project 3
+              </MDBCardTitle>
+              <MDBCardText
+                style={{ backgroundColor: "#204051", color: "white" }}
+              >
                 Quizlet style app that tests user web development knowledge.{" "}
                 <br />
                 <a rel="noopener" href="https://iron-study-guide.netlify.app/">
@@ -72,7 +85,6 @@ class Project extends Component {
                 </a>
               </MDBCardText>
             </MDBCardBody>
-            <MDBCardBody></MDBCardBody>
           </MDBCard>
         </MDBCol>
       </div>

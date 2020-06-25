@@ -7,13 +7,12 @@ import {
   MDBContainer,
 } from "mdbreact";
 
-
 class Home extends Component {
   render() {
     return (
-      <div>
-        <h1 style={{ textAlign: "center" }}>Justin Ochoa's Website</h1>
-        <MDBContainer>
+      <div className="home">
+        <img src="../images/web.png" />
+        {/* <MDBContainer>
           <MDBCarousel
             activeItem={1}
             length={3}
@@ -51,7 +50,7 @@ class Home extends Component {
               </MDBCarouselItem>
             </MDBCarouselInner>
           </MDBCarousel>
-        </MDBContainer>
+        </MDBContainer> */}
       </div>
     );
   }
