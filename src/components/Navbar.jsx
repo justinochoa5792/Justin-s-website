@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 class Navbar extends Component {
   render() {
     return (
-      <div className="navbar" style={{ backgroundColor: "#84a9ac" }}>
+      <div
+        className="navbar"
+        style={{ backgroundColor: "#84a9ac", margin: "0" }}
+      >
         <h1
           style={{
             textAlign: "center",
@@ -11,7 +14,7 @@ class Navbar extends Component {
             color: "white",
           }}
         >
-          Justin Ochoa's Website
+          Justin Ochoa
         </h1>
         <div>
           <Link
