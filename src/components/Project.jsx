@@ -87,6 +87,33 @@ class Project extends Component {
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
+        <MDBCol>
+          <MDBCard style={{ width: "22rem" }}>
+            <MDBCardImage
+              className="img-fluid"
+              src="../images/Screen Shot 2020-08-17 at 2.46.16 PM.png"
+              waves
+            />
+            <MDBCardBody style={{ backgroundColor: "#204051" }}>
+              <MDBCardTitle
+                style={{ backgroundColor: "#204051", color: "white" }}
+              >
+                Movie Fight
+              </MDBCardTitle>
+              <MDBCardText
+                style={{ backgroundColor: "#204051", color: "white" }}
+              >
+                Web App that lets you compare movies. <br />
+                <a
+                  rel="noopener"
+                  href="https://justinochoa5792.github.io/Movie-Search/"
+                >
+                  Go to App
+                </a>
+              </MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
       </div>
     );
   }
