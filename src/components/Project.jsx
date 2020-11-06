@@ -114,6 +114,83 @@ class Project extends Component {
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
+        <MDBCol>
+          <MDBCard style={{ width: "22rem" }}>
+            <MDBCardImage
+              className="img-fluid"
+              src="../images/Screen Shot 2020-11-06 at 12.39.50 PM.png"
+              waves
+            />
+            <MDBCardBody style={{ backgroundColor: "#204051" }}>
+              <MDBCardTitle
+                style={{ backgroundColor: "#204051", color: "white" }}
+              >
+                Relax App
+              </MDBCardTitle>
+              <MDBCardText
+                style={{ backgroundColor: "#204051", color: "white" }}
+              >
+                An app created to help users relax via breathe control.
+                <br />
+                <a
+                  rel="noopener"
+                  href="https://justinochoa5792.github.io/Relax-App/"
+                >
+                  Go to Site
+                </a>
+              </MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+        <MDBCol>
+          <MDBCard style={{ width: "22rem" }}>
+            <MDBCardImage
+              className="img-fluid"
+              src="../images/Screen Shot 2020-11-06 at 12.44.30 PM.png"
+              waves
+            />
+            <MDBCardBody style={{ backgroundColor: "#204051" }}>
+              <MDBCardTitle
+                style={{ backgroundColor: "#204051", color: "white" }}
+              >
+                Exchange Rate App
+              </MDBCardTitle>
+              <MDBCardText
+                style={{ backgroundColor: "#204051", color: "white" }}
+              >
+                An app created to help calculate currency exchange rates <br />
+                <a rel="noopener" href="https://eccalc.netlify.app/">
+                  Go to Site
+                </a>
+              </MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+        <MDBCol>
+          <MDBCard style={{ width: "22rem" }}>
+            <MDBCardImage
+              className="img-fluid"
+              src="../images/Screen Shot 2020-11-06 at 12.54.26 PM.png"
+              waves
+            />
+            <MDBCardBody style={{ backgroundColor: "#204051" }}>
+              <MDBCardTitle
+                style={{ backgroundColor: "#204051", color: "white" }}
+              >
+                Speech App{" "}
+              </MDBCardTitle>
+              <MDBCardText
+                style={{ backgroundColor: "#204051", color: "white" }}
+              >
+                An App created to help non-verbal people express themselves{" "}
+                <br />
+                <a rel="noopener" href="https://text2talk.netlify.app/">
+                  Go to Site
+                </a>
+              </MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
       </div>
     );
   }
