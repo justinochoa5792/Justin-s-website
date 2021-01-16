@@ -107,22 +107,22 @@ class Project extends Component {
             <MDBCard style={{ width: "22rem" }}>
               <MDBCardImage
                 className="img-fluid"
-                src="../images/Screen Shot 2020-08-17 at 2.46.16 PM.png"
+                src="../images/Screen Shot 2021-01-16 at 9.51.24 AM.png"
                 waves
               />
               <MDBCardBody style={{ backgroundColor: "#204051" }}>
                 <MDBCardTitle
                   style={{ backgroundColor: "#204051", color: "white" }}
                 >
-                  Movie Fight
+                  SpaceX Launch Site
                 </MDBCardTitle>
                 <MDBCardText
                   style={{ backgroundColor: "#204051", color: "white" }}
                 >
-                  Web App that lets you compare movies. <br />
+                  React App that allows you to see SpaceX launch stats. <br />
                   <a
                     rel="noopener"
-                    href="https://justinochoa5792.github.io/Movie-Search/"
+                    href="https://murmuring-refuge-43401.herokuapp.com/"
                     target="new"
                   >
                     Go to App
@@ -191,6 +191,33 @@ class Project extends Component {
           </MDBCol>
         </MDBRow>
         <MDBRow>
+          <MDBCard style={{ width: "22rem" }}>
+            <MDBCardImage
+              className="img-fluid"
+              src="../images/Screen Shot 2020-08-17 at 2.46.16 PM.png"
+              waves
+            />
+            <MDBCardBody style={{ backgroundColor: "#204051" }}>
+              <MDBCardTitle
+                style={{ backgroundColor: "#204051", color: "white" }}
+              >
+                Movie Fight
+              </MDBCardTitle>
+              <MDBCardText
+                style={{ backgroundColor: "#204051", color: "white" }}
+              >
+                An app created to let you compare movies.
+                <br />
+                <a
+                  rel="noopener"
+                  href="https://movie-fite.netlify.app/"
+                  target="new"
+                >
+                  Go to Site
+                </a>
+              </MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
           <MDBCol>
             <MDBCard style={{ width: "22rem" }}>
               <MDBCardImage
